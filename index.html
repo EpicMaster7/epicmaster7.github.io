@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#090e17" />
+  <meta name="description" content="Poorv Patil is a UC Berkeley EECS student exploring software engineering, machine learning, and robotics. Explore his work through an interactive quadcopter." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Poorv Patil — Engineering in Motion" />
+  <meta property="og:description" content="Software, machine learning, and robotics. An interactive flight deck for work by Poorv Patil." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="assets/app.js" defer></script>
+  <title>Poorv Patil — Engineering in Motion</title>
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to selected work</a>
+  <div class="site-noise" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <div class="header-inner shell">
+      <a class="brand" href="#top" aria-label="Poorv Patil, homepage"><span class="brand-mark">P<span>/</span></span><span class="brand-name">POORV PATIL</span><span class="brand-divider"></span><span class="brand-sub">ENGINEERING IN MOTION</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation"><a class="nav-link active" href="#flight-deck">Flight deck</a><a class="nav-link" href="#projects">Projects</a><a class="nav-link" href="#research">Research</a><a class="nav-link" href="#experience">Experience</a><a class="nav-link" href="#about">About</a></nav>
+      <div class="header-actions"><a class="social-icon" href="https://github.com/EpicMaster7" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .75A11.25 11.25 0 0 0 .75 12c0 4.971 3.223 9.188 7.694 10.676.563.104.769-.244.769-.542 0-.267-.01-.974-.015-1.912-3.128.679-3.788-1.508-3.788-1.508-.511-1.298-1.249-1.644-1.249-1.644-1.02-.697.077-.683.077-.683 1.129.079 1.723 1.158 1.723 1.158 1.002 1.717 2.629 1.221 3.268.933.101-.726.393-1.221.715-1.502-2.497-.284-5.123-1.248-5.123-5.56 0-1.228.439-2.232 1.158-3.018-.116-.285-.502-1.429.11-2.978 0 0 .944-.302 3.094 1.153a10.786 10.786 0 0 1 5.63 0c2.148-1.455 3.09-1.153 3.09-1.153.614 1.55.228 2.693.113 2.978.721.786 1.155 1.79 1.155 3.018 0 4.323-2.63 5.272-5.136 5.551.403.35.762 1.044.762 2.104 0 1.52-.014 2.744-.014 3.116 0 .302.203.651.775.54A11.254 11.254 0 0 0 23.25 12 11.25 11.25 0 0 0 12 .75Z"/></svg></a><a class="social-icon linkedin" href="https://linkedin.com/in/poorvpatil" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">in</a><a class="resume-button" href="assets/Poorv-Patil-Resume.pdf" target="_blank" rel="noopener noreferrer">Résumé <span>↗</span></a><button class="menu-toggle" id="menu-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button></div>
+    </div>
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden><a href="#flight-deck">Flight deck</a><a href="#projects">Projects</a><a href="#research">Research</a><a href="#experience">Experience</a><a href="#about">About</a><a href="assets/Poorv-Patil-Resume.pdf" target="_blank" rel="noopener noreferrer">Résumé ↗</a></nav>
+  </header>
+  <main>
+    <section class="flight-deck" id="flight-deck" aria-labelledby="hero-title">
+      <div class="radial-light radial-one"></div><div class="radial-light radial-two"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-inner shell">
+        <div class="hero-intro">
+          <div class="overline"><span class="status-light"></span> UC BERKELEY / EECS <span class="overline-line"></span></div>
+          <h1 id="hero-title">Hi, I'm<br /><span>Poorv.</span></h1>
+          <p class="hero-statement">I build intelligent systems that <em>interact with the real world.</em></p>
+          <p class="hero-description">Software engineering, machine learning, and robotics. From secure LLMs and medical signals to autonomous machines.</p>
+          <div class="hero-ctas"><a href="#projects" class="btn btn-primary">Explore my work <span>↗</span></a><a href="assets/Poorv-Patil-Resume.pdf" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">View résumé <span>↗</span></a></div>
+          <div class="hero-info"><span class="dot"></span> OPEN TO INTERNSHIPS &amp; RESEARCH <span class="hero-info-separator">/</span> <span>BERKELEY, CA</span></div>
+        </div>
+        <div class="flight-canvas" id="flight-canvas" aria-label="Interactive quadcopter exploration">
+          <div class="canvas-topline"><span class="canvas-corner"></span><span>INTERACTIVE FLIGHT DECK</span><span class="canvas-topright">F450 / CONCEPT VIEW</span></div>
+          <div class="handwritten-note" aria-hidden="true">click a motor<br />to explore my work <svg viewBox="0 0 80 55" fill="none"><path d="M3 4C24 0 38 18 52 40M52 40L42 32M52 40L55 28" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+          <div class="drone-art" id="drone-art">
+            <div class="art-coordinate x-label">X: 37.8715</div><div class="art-coordinate y-label">Y: -122.2585</div>
+            <div class="art-grid"></div>
+            <div class="art-orbit art-orbit-one"></div><div class="art-orbit art-orbit-two"></div>
+            <img class="drone-photo" src="assets/drone-render.webp" alt="Stylized top-down render of an F450 quadcopter on a technical workbench" width="645" height="385" fetchpriority="high" />
+            <svg class="drone-blueprint" viewBox="0 0 645 385" fill="none" aria-hidden="true"><g stroke="#79b9ff" stroke-width="2"><path d="M315 182L151 61M336 182L498 61M315 204L151 323M336 204L498 323" stroke-width="18" stroke-opacity=".17"/><path d="M315 182L151 61M336 182L498 61M315 204L151 323M336 204L498 323"/><rect x="284" y="154" width="80" height="78" rx="9"/><rect x="303" y="174" width="41" height="35" rx="4" stroke-dasharray="4 4"/></g><g stroke="#8ebefa" stroke-width="1" opacity=".75"><circle cx="151" cy="61" r="41"/><circle cx="498" cy="61" r="41"/><circle cx="151" cy="323" r="41"/><circle cx="498" cy="323" r="41"/><path d="M151 18V104M108 61H194M498 18V104M455 61H541M151 280V366M108 323H194M498 280V366M455 323H541"/><path d="M272 144H377M272 243H377M284 144V139M364 144V139M284 243V248M364 243V248"/></g><g fill="#b7d8ff" font-family="monospace" font-size="11"><text x="323" y="195" text-anchor="middle">PX4</text><text x="323" y="223" text-anchor="middle" font-size="8">CONTROL</text></g></svg>
+            <button class="motor motor-ml" data-module="ml" aria-label="Explore machine learning and AI, motor 1" aria-pressed="false"><span class="motor-pulse"></span><span class="motor-core">01</span><span class="motor-caption">ML / AI <span>↗</span></span></button>
+            <button class="motor motor-software active" data-module="software" aria-label="Explore software engineering, motor 2" aria-pressed="true"><span class="motor-pulse"></span><span class="motor-core">02</span><span class="motor-caption">SOFTWARE <span>↗</span></span></button>
+            <button class="motor motor-research" data-module="research" aria-label="Explore research, motor 3" aria-pressed="false"><span class="motor-pulse"></span><span class="motor-core">03</span><span class="motor-caption">RESEARCH <span>↗</span></span></button>
+            <button class="motor motor-robotics" data-module="robotics" aria-label="Explore robotics, motor 4" aria-pressed="false"><span class="motor-pulse"></span><span class="motor-core">04</span><span class="motor-caption">ROBOTICS <span>↗</span></span></button>
+            <div class="center-target" title="Flight controller / click inspect below"><span>FC</span></div>
+          </div>
+          <div class="canvas-controls"><div class="mini-telemetry"><span class="blip"></span><span id="canvas-status">MODULE 02 / SOFTWARE</span></div><div class="control-buttons"><button type="button" id="inspect-btn" class="control-btn" aria-pressed="false" title="Switch between render and schematic">⌗ <span>Inspect</span></button><button type="button" id="flight-btn" class="control-btn" aria-pressed="false" title="Toggle a visual motor test">◉ <span>Motor test</span></button></div></div>
+          <div class="canvas-bottomline"><span>4 MOTORS · 4 DISCIPLINES</span><span>NOT A LIVE FLIGHT FEED</span></div>
+        </div>
+        <aside class="module-panel" id="module-panel" aria-live="polite" aria-label="Selected drone module"><div class="panel-head"><span class="panel-kicker">FLIGHT CONTROLLER / MODULE VIEW</span><span class="panel-counter" id="panel-counter">02 / 04</span></div><div class="panel-symbol" id="panel-symbol" aria-hidden="true">✳</div><p class="panel-category" id="panel-category">02 / SOFTWARE ENGINEERING</p><h2 id="panel-title">Building the systems.</h2><p class="panel-description" id="panel-description">APIs, data, real-time collaboration, performance, and the details that keep an application working.</p><div class="panel-divider"><span>RELATED TRANSMISSIONS</span><span>↘</span></div><div class="module-projects" id="module-projects"></div><div class="panel-foot"><span id="panel-foot-label">SELECT ANY MOTOR TO SWITCH</span><span class="key-hint">[ 1 - 4 ]</span></div></aside>
+      </div>
+      <div class="flight-bottom shell"><div class="flight-meta"><span class="crosshair">⊕</span><span>FIELD NOTES / ISSUE 001</span><span class="flight-meta-line"></span><span>BUILT AT THE INTERSECTION OF CODE &amp; THE PHYSICAL WORLD</span></div><a href="#projects" class="scroll-cue">SCROLL TO SELECTED WORK <span>↓</span></a></div>
+    </section>
+
+    <section class="projects-section" id="projects" aria-labelledby="projects-title"><div class="shell"><div class="section-heading"><div><div class="section-index">01 <span>/</span> SELECTED WORK</div><h2 id="projects-title">Things in <span>motion.</span></h2><p>Real software, research experiments, and machines. Open any case file for the decisions and details behind the work.</p></div><div class="filters" role="group" aria-label="Filter projects"><button class="filter active" data-filter="all" aria-pressed="true">All work <span>07</span></button><button class="filter" data-filter="software" aria-pressed="false">Software</button><button class="filter" data-filter="ml" aria-pressed="false">ML / AI</button><button class="filter" data-filter="robotics" aria-pressed="false">Robotics</button></div></div><div class="projects-grid" id="projects-grid"></div><p class="project-disclaimer"><span>✳</span> Selected visuals are illustrative interfaces and research schematics; actual implementations and results are described in the case files.</p></div></section>
+
+    <section class="research-section" id="research" aria-labelledby="research-title"><div class="shell research-inner"><div class="research-copy"><div class="section-index">02 <span>/</span> RESEARCH NOTEBOOK</div><h2 id="research-title">Questions worth<br/><em>testing.</em></h2><p>I like the part where an idea meets a benchmark. My research has spanned cardiac audio classification, LLM-generated code security, and multi-drone coordination under uncertainty.</p><a href="https://doi.org/10.1109/BIBE63649.2024.10820490" class="underlined-link" target="_blank" rel="noopener noreferrer">Read my IEEE paper <span>↗</span></a></div><div class="research-plate"><div class="plate-top"><span>EXPERIMENT / 001</span><span>PCG CLASSIFICATION — IEEE BIBE 2024</span></div><div class="plate-visual"><div class="plate-wave" id="research-wave" aria-label="Illustrative phonocardiogram waveform"></div><div class="plate-anot"><span>S1</span><span>S2</span><span>S1</span><span>S2</span></div></div><div class="plate-result"><div><span>01 / BASELINE</span><strong>81<small>%</small></strong></div><div class="result-arrow">→</div><div><span>02 / XGBOOST</span><strong>92<small>%</small></strong></div><div class="plate-result-caption">Accuracy in the reported study. Sample waveform is illustrative.</div></div></div></div></section>
+
+    <section class="experience-section" id="experience" aria-labelledby="experience-title"><div class="shell"><div class="section-index">03 <span>/</span> FLIGHT LOG</div><div class="experience-top"><h2 id="experience-title">Where I've<br/><em>worked.</em></h2><p>A few stops across software engineering, applied ML, assistive communication, and research. Each one shaped how I think about building reliable systems.</p></div><div class="timeline" id="timeline"></div></div></section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title"><div class="shell about-grid"><div class="about-art" aria-hidden="true"><div class="about-orbit about-orbit-a"></div><div class="about-orbit about-orbit-b"></div><div class="about-monogram">P<span>/</span></div><div class="about-sticker sticker-top">CALIFORNIA<br/>↳ BERKELEY</div><div class="about-sticker sticker-bottom">BUILD<br/>BREAK<br/>LEARN<br/>REPEAT.</div><div class="about-gridline"></div></div><div class="about-copy"><div class="section-index">04 <span>/</span> THE HUMAN BEHIND THE HARDWARE</div><h2 id="about-title">Curious by<br/><em>default.</em></h2><p>I'm Poorv, an EECS student at UC Berkeley who likes turning research ideas into working systems. I've spent time with ML experiments, production-minded web apps, assistive communication software, and quadcopters.</p><p>I'm particularly interested in engineering where software has to contend with messy real-world constraints: reliability, latency, limited compute, and unexpected edge cases.</p><div class="about-tags"><span>PYTHON / C++</span><span>PYTORCH</span><span>FULL-STACK</span><span>AUTONOMY</span><span>RESEARCH</span></div><a class="text-link" href="https://github.com/EpicMaster7" target="_blank" rel="noopener noreferrer">See what I'm building on GitHub <span>↗</span></a></div></div></section>
+
+    <section class="contact-section" id="contact"><div class="shell contact-wrap"><div><div class="section-index">05 <span>/</span> OPEN CHANNEL</div><h2>Have something<br/><em>in mind?</em></h2><p>Engineering opportunities, research questions, ambitious prototypes, or a conversation about something interesting.</p></div><div class="contact-actions"><a href="mailto:poorv@berkeley.edu" class="btn btn-contact">Say hello <span>↗</span></a><a href="https://linkedin.com/in/poorvpatil" target="_blank" rel="noopener noreferrer" class="secondary-contact">Connect on LinkedIn ↗</a></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><span class="footer-logo">P<span>/</span></span><span>© <span id="year">2026</span> POORV PATIL. BUILT WITH CURIOSITY.</span><div><a href="https://github.com/EpicMaster7" target="_blank" rel="noopener noreferrer">GITHUB ↗</a><a href="https://linkedin.com/in/poorvpatil" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a><a href="#top">BACK TO TOP ↑</a></div></div></footer>
+  <dialog class="case-dialog" id="case-dialog" aria-labelledby="case-title"><div class="dialog-wrap"><button class="dialog-close" type="button" id="close-dialog" aria-label="Close project case study">✕</button><div class="dialog-content" id="dialog-content"></div></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
